@@ -1,4 +1,5 @@
 import React from 'react'
+import Mark from '../images/Mark-Profile.jpeg'
 
 export default function Header() {
     return (
@@ -19,7 +20,10 @@ export default function Header() {
                         <a href="www.github.com" target="_blank" rel="noreferrer"><i class="fab fa-github fa-2x"></i>{null}</a>
                     </div>
                 </div>
-                <div className="row-two"></div>
+                <div className="row-two header-image">
+                    <img src={Mark} alt="Mark Hinkel Portrait" className="portrait"/>
+                </div>
+                <hr/>
             </div>
         </div>
         </section>
