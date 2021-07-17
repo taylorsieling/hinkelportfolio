@@ -4,7 +4,9 @@ export default function Skills() {
     return (
         <section id="skills">
             <div className="skills">
-                <h1>Skills</h1>
+                <div className="title">
+                    <h1>Skills</h1>
+                </div>
                 <ul>
                     <li>Project Engineering</li>
                     <li>Project Management</li>
@@ -20,6 +22,7 @@ export default function Skills() {
                     <li>Microsoft Suite</li>
                 </ul>
             </div>
+            <hr/>
         </section>
     )
 }
