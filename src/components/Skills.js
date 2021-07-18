@@ -5,7 +5,7 @@ export default function Skills() {
         <section id="skills">
             <div className="skills">
                 <div className="title">
-                    <h1>Skills</h1>
+                    <h2>Skills</h2>
                 </div>
                 <ul>
                     <li>Project Engineering</li>
