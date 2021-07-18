@@ -1,11 +1,12 @@
 import React from 'react'
+import Portrait from '../images/Mark-Portrait.png'
 
 export default function AboutMe() {
     return (
         <section id="aboutme">
             <div className="row">
                 <div className="row-two">
-                    <img src="{Mark}" alt="Mark Hinkel Portrait" className="portrait"/>
+                    <img src={Portrait} alt="Mark Hinkel Portrait" />
                 </div>
                 <div className="row-two about">
                     <h1>About Me</h1>

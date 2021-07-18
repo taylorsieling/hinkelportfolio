@@ -1,5 +1,5 @@
 import React from 'react'
-import Mark from '../images/Mark-Profile.jpeg'
+import Mark from '../images/Mark-Headshot.png'
 
 export default function Header() {
     return (
@@ -11,8 +11,8 @@ export default function Header() {
                         <h3>Hello, I'm</h3>
                     </div>
                     <div className="intro">
-                        <h1>Mark <strong>Hinkel</strong></h1>
-                        <h3>Chemical Engineer</h3>
+                        <h1><span className="txt-normal">Mark</span> Hinkel</h1>
+                        <h3 className="txt-upper">Chemical Engineer</h3>
                     </div>
                     <div className="icons">
                         <a href="mailto:mjhinkel18@gmail.com" target="_blank" rel="noreferrer"><i class="fas fa-envelope-open fa-2x"></i>{null}</a>
