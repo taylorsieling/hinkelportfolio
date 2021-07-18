@@ -1,9 +1,10 @@
 
 :root {
+  --clr-primary-100: #A8B5BB;
   --clr-primary-300: #394E7F;
   --clr-primary-800: #0e131f;
 
-  --clr-accent-200: #FFE0B5;
+  --clr-accent-200: #FFF7EB;
   --clr-accent-400: #B96D40;
   --clr-accent-600: #985934;
 
@@ -78,23 +79,19 @@ section {
   text-align: center;
 }
 
-.txt-heavy {
-  font-weight: 600;
-}
-
 .txt-normal {
   font-weight: 400;
 }
 
-.txt-light {
-  font-weight: 200;
+.clr-dark {
+  color: var(--clr-primary-800)
 }
 
 .txt-upper {
   text-transform: uppercase;
 }
 
-.title {
+.padding {
   padding: 2rem;
 }
 
@@ -224,7 +221,7 @@ img {
 /* SKILLS */
 
 #skills {
-  margin: 0 8rem;
+  margin: 0 10rem;
 }
 
 .skills > ul {
@@ -240,15 +237,33 @@ img {
   color: white;
   border: 1px solid #B96D40;
   border-radius: 20px;
+  line-height: 1rem;
 }
 
 .btn {
-  margin: 1em;
-  padding: 1em;
+  margin: 1rem;
+  padding: 1rem;
   width: fit-content;
   color: white;
+  background-color: var(--clr-accent-400);
   border: 1px solid #B96D40;
   border-radius: 20px;
   text-decoration: none;
 }
 
+/* EXPERIENCE */
+
+#experience {
+  padding: 0 8rem;
+  background-color: var(--clr-primary-100);
+}
+
+.experience > * {
+  color: var(--clr-primary-800);
+}
+ 
+.card {
+  margin: 1rem;
+  padding: 2rem;
+  background-color: var(--clr-primary-800)
+}
