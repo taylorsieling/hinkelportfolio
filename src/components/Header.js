@@ -23,7 +23,6 @@ export default function Header() {
                 <div className="row-two header-image">
                     <img src={Mark} alt="Mark Hinkel Portrait" className="portrait"/>
                 </div>
-                <hr/>
             </div>
         </div>
         </section>
