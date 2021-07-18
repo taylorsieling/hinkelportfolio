@@ -3,9 +3,9 @@ import React from 'react'
 export default function Skills() {
     return (
         <section id="skills">
-            <div className="skills">
+            <div className="skills txt-center">
                 <div className="title">
-                    <h2>Skills</h2>
+                    <h2>Skills & Proficiencies</h2>
                 </div>
                 <ul>
                     <li>Project Engineering</li>
@@ -21,8 +21,10 @@ export default function Skills() {
                     <li>MATLAB</li>
                     <li>Microsoft Suite</li>
                 </ul>
+                <div>
+                    <a className="btn" href="#">Download Résumé <i class="fas fa-download"></i></a>
+                </div>
             </div>
-            <hr/>
         </section>
     )
 }

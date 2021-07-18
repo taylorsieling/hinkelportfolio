@@ -5,8 +5,8 @@ export default function Header() {
     return (
         <section id="header">
         <div className="header">
-            <div className="row">
-                <div className="row-two header-intro">
+            <div className="columns">
+                <div className="header-intro">
                     <div className="hello">
                         <h3>Hello, I'm</h3>
                     </div>
@@ -20,7 +20,7 @@ export default function Header() {
                         <a href="www.github.com" target="_blank" rel="noreferrer"><i class="fab fa-github fa-2x"></i>{null}</a>
                     </div>
                 </div>
-                <div className="row-two header-image">
+                <div className="header-image">
                     <img src={Mark} alt="Mark Hinkel Portrait" className="portrait"/>
                 </div>
             </div>
