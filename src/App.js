@@ -4,6 +4,8 @@ import NavContainer from './containers/NavContainer'
 import AboutMe from './components/AboutMe'
 import Skills from './components/Skills'
 import Experience from './components/Experience'
+import Education from './components/Education';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
       <Header/>
       <AboutMe/>
       <Skills/>
+      <Education/>
       <Experience/>
+      <Footer/>
     </div>
   );
 }

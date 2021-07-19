@@ -34,6 +34,8 @@ body,
 h1,
 h2,
 h3,
+h4,
+h5,
 p {
   margin: 0;
 }
@@ -215,6 +217,7 @@ img {
 }
 
 .about {
+  text-align: right;
   background-color:var(--clr-accent-600);
 }
 
@@ -222,6 +225,7 @@ img {
 
 #skills {
   margin: 0 10rem;
+  text-align: center;
 }
 
 .skills > ul {
@@ -248,22 +252,92 @@ img {
   background-color: var(--clr-accent-400);
   border: 1px solid #B96D40;
   border-radius: 20px;
-  text-decoration: none;
+  text-align: center;
 }
+
+.btn > a {
+  text-decoration: none;
+
+}
+
+
+/* EDUCATION */
+
+#education {
+  min-height: 30rem;
+  background-image: url("https://images.unsplash.com/photo-1590129696536-c5103275839c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#education > .columns {
+  margin: 2rem 10rem;
+}
+
+.edu {
+  background-color:var(--clr-accent-600);
+}
+
 
 /* EXPERIENCE */
 
 #experience {
-  padding: 0 8rem;
-  background-color: var(--clr-primary-100);
+  padding: 0 rem;
+  background-color: var(--clr-primary-800);
 }
 
-.experience > * {
-  color: var(--clr-primary-800);
-}
- 
-.card {
-  margin: 1rem;
+.sans-line {
+  position: relative;
+  display: inline-block;
+  width: 50rem;
+  margin: 2rem;
   padding: 2rem;
-  background-color: var(--clr-primary-800)
+  background-color: var(--clr-accent-600);
+  border: .2rem solid var(--clr-accent-600);
 }
+
+.box {
+  position: relative;
+  display: inline-block;
+  width: 50rem;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: var(--clr-accent-600);
+  border: .2rem solid var(--clr-accent-600);
+}
+
+.box:before {
+  content: '';
+  width: .4rem;
+  height: 5rem;
+  background: var(--clr-accent-600);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -2px;
+}
+
+.center {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* FOOTER */
+
+/* .credit > p, a {
+  float: left;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.contact > p, a {
+  float: right;
+  text-decoration: none;
+  text-transform: uppercase;
+} */
+
+
